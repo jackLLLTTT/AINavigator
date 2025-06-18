@@ -1,4 +1,4 @@
-import { FaPlus, FaGrip, FaList } from "react-icons/fa";
+import { FaPlus, FaTh, FaList, FaSearch } from "react-icons/fa";
 import ToolCard from "./tool-card";
 import { Skeleton } from "@/components/ui/skeleton";
 import type { Tool } from "@shared/schema";
@@ -87,7 +87,7 @@ export default function ToolsGrid({
               }`}
               title="网格视图"
             >
-              <FaGrip />
+              <FaTh />
             </button>
             <button 
               onClick={() => onViewModeChange("list")}
